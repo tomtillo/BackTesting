@@ -4,11 +4,15 @@
 
 **Step 1 :** 
 ### Identify up-trend , down-trend ,flat days 
+
 * Method 1 - Linear regression of minute data 
 Classification based on slope of linear regression line ( Brackets of slopes - both upward and downward)
+![](https://github.com/tomtillo/BackTesting/blob/master/up_trend_Down_trend.jpg)
 
 * Method 2 - Average of n-time period data 
 Classification based on the shape of the resulting figure  ( Using convolutional neural networks )
+![](https://github.com/tomtillo/BackTesting/blob/master/shape_detection_CNN.jpg)
+
 
 **Step 2 :** 
 Group the trend days together and overlap the images to form a combined image with a band of price movements. 
