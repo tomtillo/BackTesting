@@ -16,6 +16,7 @@ Classification based on the shape of the resulting figure  ( Using convolutional
 
 **Step 2 :** 
 Group the trend days together and overlap the images to form a combined image with a band of price movements. 
+![](https://github.com/tomtillo/BackTesting/blob/master/graph_overlap.png)
 
 ## Volatility prediction
 Few metrics for volatility 
