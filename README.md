@@ -28,4 +28,32 @@ Few metrics for volatility
 * **70-30 train-test split**   ( preserving the time character of data )
 * **70-30  with randomized train-test data**  ( cancels auto-correlation & depends on the derived variables & relationship to index prices and other stock prices in same industry )
 * **3-hr data (0915 - 1200 )** ( Train on morning session data and test on post noon session )
+### Steps for back testing 
+* Define strategy
+* Code
+* Back Test on historical data
+* Generate Reports
+* Compare strategies
+
+Comparison of strategies are done using same metrics defined across 
+### Risk Metrics
+* Max Drawdown  Amount
+* Max Drawdown duration
+* Sharpe Ratio
+
+### Performance Metrics
+* Net Profit (  for the period of testing)
+* Profit factor (Pf)= Sum of Profit / Sum of Loss
+* Outlier Adjusted Profit factor
+* % winning trades 
+* Wining / Loosing Streak  ( count )
+* Avg Profit/Loss per trade 
+* Profit %   = Total Profit / Total Invested
+
+### Periodicity Metrics
+* Number of times the events that satisfy the strategy occurs in the test period
+* Average frequency per unit test period ( duration between two occurrences )
+
+
+
 
