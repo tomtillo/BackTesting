@@ -10,7 +10,7 @@ Classification based on slope of linear regression line ( Brackets of slopes - b
 ![](https://github.com/tomtillo/BackTesting/blob/master/up_trend_Down_trend.jpg)
 
 * Method 2 - Average of n-time period data 
-Classification based on the shape of the resulting figure  ( Using convolutional neural networks )
+Classification based on the shape of the resulting figure  ( Using convolutional neural networks ) ( n = 5, 10 ,15,30 .. minutes )
 ![](https://github.com/tomtillo/BackTesting/blob/master/shape_detection_CNN.jpg)
 
 
